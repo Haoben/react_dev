@@ -1,0 +1,34 @@
+.list_box {
+  width: 500px;
+  padding: 20px;
+  min-height: 100px;
+  background-color: #ffff;
+  margin: 0 auto;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .list_content {
+    margin-top: 20px;
+    text-align: left;
+
+    .item {
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+
+      .icon {
+        // display: none;
+      }
+    }
+
+    &:hover {
+      .icon {
+        // display: block;
+      }
+    }
+  }
+}
